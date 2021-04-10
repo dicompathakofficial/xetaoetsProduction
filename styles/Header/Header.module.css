@@ -1,0 +1,81 @@
+.Header {
+  max-width: 1400px;
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+}
+
+.HeaderContent {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.HeaderContent h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4.8rem;
+  line-height: 4.75rem;
+
+  color: #ffffff;
+}
+
+.HeaderContent p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.25rem;
+
+  color: #ffffff;
+}
+
+.HeaderContentBtns {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 5rem;
+}
+
+.HeaderContentBtns button {
+  width: 16.5rem;
+  height: 4.5rem;
+
+  background: #ea4949;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  /* identical to box height */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.HeaderContentBtns div {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}
