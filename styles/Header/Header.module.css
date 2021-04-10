@@ -8,7 +8,7 @@
 
 .HeaderContent {
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 0%;
   transform: translateY(-50%);
   color: #fff;
@@ -18,8 +18,8 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 4.8rem;
-  line-height: 4.75rem;
+  font-size: 4.5rem;
+  line-height: 4rem;
 
   color: #ffffff;
 }
@@ -28,7 +28,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 2.25rem;
 
   color: #ffffff;
@@ -39,12 +39,11 @@
   justify-content: flex-start;
   align-items: center;
   gap: 2rem;
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 
 .HeaderContentBtns button {
-  width: 16.5rem;
-  height: 4.5rem;
+padding: 1.25rem 2.5rem;
 
   background: #ea4949;
   border-radius: 8px;
