@@ -43,7 +43,7 @@
 }
 
 .HeaderContentBtns button {
-padding: 1.25rem 2.5rem;
+  padding: 1.25rem 2.5rem;
 
   background: #ea4949;
   border-radius: 8px;
@@ -77,4 +77,45 @@ padding: 1.25rem 2.5rem;
   text-decoration-line: underline;
 
   color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .Header {
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .HeaderContent h2 {
+    font-size: 3.8rem;
+    line-height: 2.75rem;
+  }
+
+  .HeaderContent p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .HeaderContentBtns {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 4rem;
+  }
+
+  .HeaderContentBtns button {
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+  }
+
+  .HeaderContentBtns div {
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+  }
 }
