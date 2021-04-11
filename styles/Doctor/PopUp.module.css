@@ -1,0 +1,78 @@
+.PopUpScreen {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PopUp {
+  width: 50rem;
+  max-width: 90%;
+  height: auto;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(30px);
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2.75rem;
+  
+  padding-top: 4rem;
+}
+
+.PopUpCancel {
+  position: absolute;
+  top: 2.25rem;
+  right: 2rem;
+}
+
+
+
+.PopUp p {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.PopUp .PopUpTerms {
+    margin: 0;
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    font-size: 500;
+}
+
+.inputButton {
+  width: auto;
+  height: 4.9rem;
+
+  background: #f32e49;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  padding: 1.25rem 4rem;
+  gap: 0.5rem;
+  padding-left: 1.5rem;
+
+  color: #ffffff;
+}

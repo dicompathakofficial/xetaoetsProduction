@@ -13,7 +13,7 @@ const Headertext = ({showDoctors}) => {
             <p>for the ones who truly care for you .</p>
             <div className={styles.HeaderContentBtns}>
                     <button onClick={showDoctors}>
-                    Explore Doctors
+                        Explore Doctors
                     </button>
                 <div>
                     How We Verify Our Vets?
