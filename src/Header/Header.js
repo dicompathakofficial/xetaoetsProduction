@@ -1,12 +1,13 @@
 import React from 'react';
 import NavBar from './NavBar';
 import styles from '../../styles/Header/Header.module.css';
+import Doctors from '../Doctors/Doctors';
 
 export default function Header() {
     return (
         <div className={styles.Header}>
             <NavBar />
-            <div className={styles.HeaderContent}>
+            {/* <div className={styles.HeaderContent}>
                 <h2>The Best </h2>
                 <h2 style={{ color: "#EA4949" }}>Vets</h2>
                 <h2>In Town .</h2>
@@ -20,7 +21,9 @@ export default function Header() {
                         How We Verify Our Vets?
                     </div>
                 </div>
-            </div>
+            </div> */}
+            <Doctors />
+
         </div>
     )
 }

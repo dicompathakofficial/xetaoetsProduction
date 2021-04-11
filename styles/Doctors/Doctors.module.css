@@ -1,0 +1,9 @@
+.Doctors {
+    padding-top: 4rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26.5rem, 1fr));
+    gap: 2rem;
+    grid-row-gap: 4rem;
+}
+
