@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import NavBar from './NavBar';
 import styles from '../../styles/Header/Header.module.css';
 import Doctors from '../Doctors/Doctors';
+import Footer from '../Footer/Footer';
 
 const Headertext = ({showDoctors}) => {
     return (
@@ -37,6 +38,8 @@ export default function Header() {
             {
                 doctors ? <Doctors /> : <Headertext showDoctors={showDoctors}/>
             }
+
+            <Footer />
 
         </div>
     )

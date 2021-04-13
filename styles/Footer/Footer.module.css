@@ -1,0 +1,35 @@
+.Footer {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    font-family: "Poppins";
+}
+
+.Footer h2 {
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.Footer p {
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 400px) {
+    .Footer h2 {
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+    
+    .Footer p {
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+  }
+
