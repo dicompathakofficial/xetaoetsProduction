@@ -64,6 +64,7 @@
   text-align: center;
 
   color: #ffffff;
+  cursor: pointer;
 }
 
 .HeaderContentBtns div {
@@ -78,6 +79,7 @@
   text-decoration-line: underline;
 
   color: #ffffff;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {
