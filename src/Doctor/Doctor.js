@@ -19,7 +19,7 @@ export default function Doctor() {
             <style jsx>
                 {`
                     .Doctor {
-                        background-image: url("https://source.unsplash.com/random");
+                        background-image: url("https://source.unsplash.com/_N7I1JyPYJw");
                         width: 100%;
                         background-color: pink;
                         height: 40rem;
@@ -32,6 +32,7 @@ export default function Doctor() {
                 <div className={styles.DoctorInfo}>
                     <h2>Dr. Kumar Yogi</h2>
                     <p>With over 2 + years of experience.</p>
+                    
                 </div>
             </div>
         </div>
