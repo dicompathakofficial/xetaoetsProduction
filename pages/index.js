@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className={styles.Main}>
         <div className={styles.MainScreen}>
-          <Header />
+          <Header page="Home"/>
         </div>
       </main>
     </div>

@@ -1,10 +1,11 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import NavBar from './NavBar';
 import styles from '../../styles/Header/Header.module.css';
 import Doctors from '../Doctors/Doctors';
 import Footer from '../Footer/Footer';
+import Link from 'next/link';
 
-const Headertext = ({showDoctors}) => {
+const Headertext = () => {
     return (
         <div className={styles.HeaderContent}>
             <h2>The Best </h2>
@@ -13,9 +14,11 @@ const Headertext = ({showDoctors}) => {
 
             <p>for the ones who truly care for you .</p>
             <div className={styles.HeaderContentBtns}>
-                    <button onClick={showDoctors}>
+                <Link href="/explore">
+                    <button>
                         Explore Doctors
                     </button>
+                </Link>
                 <div>
                     How We Verify Our Vets?
                 </div>
@@ -24,19 +27,14 @@ const Headertext = ({showDoctors}) => {
     )
 }
 
-export default function Header() {
-    const [doctors, setdoctors] = useState(false);
-
-    const showDoctors = ()=> {
-        doctors ? setdoctors(false) : setdoctors(true);
-    }
+export default function Header({ page }) {
 
     return (
         <div className={styles.Header}>
             <NavBar />
 
             {
-                doctors ? <Doctors /> : <Headertext showDoctors={showDoctors}/>
+                page === 'Doctor' ? <Doctors /> : <Headertext />
             }
 
             <Footer />
