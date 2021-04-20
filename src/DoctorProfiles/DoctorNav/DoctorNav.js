@@ -5,8 +5,8 @@ export default function DoctorNav() {
     return (
         <div className={styles.DoctorNav}>
             <div className={styles.DoctorNavContainer}>
-                <div>
-                    
+                <div className={styles.logo}>
+                    <img src="./images/logo.png" />
                 </div>
                 <div className={styles.DoctorNavLogout}>
                     Menu

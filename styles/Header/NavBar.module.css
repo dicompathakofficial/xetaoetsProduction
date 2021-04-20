@@ -7,6 +7,11 @@
   background-color: transparent;
 }
 
+.logo img {
+  width: 14rem;
+  height: auto;
+}
+
 .NavBar div {
   font-family: "Poppins";
   font-style: normal;
@@ -46,6 +51,19 @@
 }
 
 .NavBar button:hover {
-  border: 2px solid #EA4949;
-  color: #EA4949;
+  border: 2px solid #ea4949;
+  color: #ea4949;
+}
+
+@media only screen and (max-width: 380px) {
+  .logo img {
+    width: 12rem;
+    height: auto;
+  }
+
+  .NavBar button {
+    width: 16.2rem;
+    height: 4.5rem;
+  }
+  
 }
