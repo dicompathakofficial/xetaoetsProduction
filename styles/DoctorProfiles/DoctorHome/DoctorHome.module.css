@@ -1,0 +1,77 @@
+.DoctorHome {
+  max-width: 1400px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.DoctorHomeHeader {
+  font-family: "Poppins";
+}
+
+.DoctorHomeHeader h2 span {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: cadetblue;
+}
+
+.DoctorHomeHeader img {
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+}
+
+.DoctorHomeHeader h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #2e1f27;
+  padding: 6rem 0 2rem 0;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.DoctorHomeHeader h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  padding-bottom: 1rem;
+}
+
+.DoctorHomeHeader h4 {
+  max-width: 26.8rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+@media only screen and (max-width: 800px) {
+  .DoctorHomeHeader h2 {
+    padding: 4rem 0 1rem 0;
+  }
+  .DoctorHome {
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+  }
+}

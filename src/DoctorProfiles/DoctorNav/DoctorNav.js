@@ -9,7 +9,7 @@ export default function DoctorNav() {
                     
                 </div>
                 <div className={styles.DoctorNavLogout}>
-                    logout
+                    Menu
                 </div>
             </div>
         </div>
