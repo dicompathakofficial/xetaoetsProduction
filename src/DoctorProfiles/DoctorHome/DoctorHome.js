@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../../../styles/DoctorProfiles/DoctorHome/DoctorHome.module.css';
 import Image from 'next/image';
+import Dates from './Dates';
 
 export default function DoctorHome() {
     return (
@@ -17,6 +18,7 @@ export default function DoctorHome() {
                 <h3>Here are your appointments for the week .</h3>
                 <h4>Kindly select a date to view your appointments.</h4>
             </div>
+            <Dates />
         </div>
     )
 }
