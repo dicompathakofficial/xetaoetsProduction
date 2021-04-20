@@ -2,13 +2,14 @@
   width: 100%;
   height: 10.2rem;
 
-  background: #ffffff;
-  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.12);
+  background: #E5DEED;
+  box-shadow: 4px 4px 12px rgb(0 0 0 / 12%);
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
 .DoctorNavContainer {
   max-width: 1400px;
@@ -23,10 +24,11 @@
   width: 16.4rem;
   height: 4.75rem;
 
-  background: #ffffff;
+  background: #E5DEED;
   /* border: 1px solid #e0e0e0; */
   box-sizing: border-box;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+  box-shadow: -6px -6px 9px hsl(0deg 0% 100% / 40%),
+    9px 9px 9px rgb(70 70 70 / 12%);
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -41,7 +43,7 @@
   align-items: center;
   text-align: center;
 
-  color: #000000;
+  color: #8958C7;
 }
 
 @media only screen and (max-width: 800px) {

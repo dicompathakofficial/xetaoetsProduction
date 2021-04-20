@@ -14,7 +14,7 @@ export default function DoctorHome() {
                     </span>
                     Welcome Back, Dr. Kamal
                 </h2>
-                <h3>Here are your appointments for the week.</h3>
+                <h3>Here are your appointments for the week .</h3>
                 <h4>Kindly select a date to view your appointments.</h4>
             </div>
         </div>

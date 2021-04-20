@@ -13,13 +13,25 @@
   height: 4.5rem;
   border-radius: 50%;
   overflow: hidden;
-  background-color: cadetblue;
 }
 
 .DoctorHomeHeader img {
   width: 100%;
   min-height: 100%;
   height: auto;
+}
+
+.DoctorHomeHeader {
+  margin-top: 6rem;
+  max-width: 50rem;
+  color: #8958c7;
+  padding: 2rem 4rem;
+  background: #e5deed;
+  /* border: 1px solid #e0e0e0; */
+  box-sizing: border-box;
+  box-shadow: -6px -6px 9px hsl(0deg 0% 100% / 40%),
+    9px 9px 9px rgb(70 70 70 / 12%);
+  border-radius: 8px;
 }
 
 .DoctorHomeHeader h2 {
@@ -32,8 +44,7 @@
   align-items: center;
   text-align: center;
 
-  color: #2e1f27;
-  padding: 6rem 0 2rem 0;
+  padding: 1rem 0 1rem 0;
 
   display: flex;
   justify-content: flex-start;
@@ -49,7 +60,6 @@
   display: flex;
   align-items: center;
 
-  color: #000000;
   padding-bottom: 1rem;
 }
 
@@ -61,17 +71,21 @@
   line-height: 2.4rem;
   display: flex;
   align-items: center;
-
-  color: #000000;
 }
 
 @media only screen and (max-width: 800px) {
   .DoctorHomeHeader h2 {
-    padding: 4rem 0 1rem 0;
+    padding:0rem 0 0rem 0;
   }
   .DoctorHome {
     max-width: 1400px;
     width: 90%;
     margin: 0 auto;
+  }
+  .DoctorHomeHeader {
+    margin-top: 6rem;
+    max-width: 40rem;
+    color: #8958c7;
+    padding: 1.75rem 2.5rem;
   }
 }
