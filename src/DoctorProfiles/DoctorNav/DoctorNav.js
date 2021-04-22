@@ -12,7 +12,7 @@ export default function DoctorNav() {
         <div className={styles.DoctorNav}>
             <div className={styles.DoctorNavContainer}>
                 <div className={styles.logo}>
-                    <img src="./images/logo.png" />
+                    <img src="/images/logo.png" />
                 </div>
                 <div onClick={handleMenu} className={styles.DoctorNavLogout}>
                     Menu
