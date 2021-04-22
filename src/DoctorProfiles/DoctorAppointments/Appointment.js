@@ -13,7 +13,7 @@ export default function Appointment() {
         <div className={styles.Appointment}>
             <h4><span>1.</span> Kumar Bhupen Bora</h4>
             {
-                complete ? <div className={styles.Completed}><IoMdDoneAll size="2.5rem" color="#fff"/></div> : <button onClick={handleComplete}><MdDone size="2.5rem" color="#fff"/></button>
+                complete ? <div onClick={handleComplete} className={styles.Completed}><IoMdDoneAll size="2.5rem" color="#fff"/></div> : <button onClick={handleComplete}><MdDone size="2.5rem" color="#fff"/></button>
             }
         </div>
     )
