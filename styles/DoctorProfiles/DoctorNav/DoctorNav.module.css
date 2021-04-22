@@ -98,6 +98,20 @@
   color: #fff;
 }
 
+@media only screen and (max-width: 1400px) {
+  .DoctorMenuContent {
+    top: 6rem;
+    left: 4.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .DoctorMenuContent {
+    top: 6rem;
+    left: 2.5rem;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .DoctorNavContainer {
     max-width: 1400px;

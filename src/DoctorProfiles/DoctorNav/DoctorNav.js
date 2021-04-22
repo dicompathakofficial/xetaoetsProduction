@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from '../../../styles/DoctorProfiles/DoctorNav/DoctorNav.module.css';
+import Link from 'next/link';
 
 export default function DoctorNav() {
 
@@ -19,7 +20,9 @@ export default function DoctorNav() {
                     {
                         menu && (
                             <div className={styles.DoctorMenuContent}>
-                                <div>Appointments</div>
+                                <Link href="/doctors">
+                                    <div>Appointments</div>
+                                </Link>
                                 <div>Create Listings</div>
                                 <div>Logout</div>
                             </div>
