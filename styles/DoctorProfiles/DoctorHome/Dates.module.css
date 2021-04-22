@@ -1,5 +1,5 @@
 .Dates {
-  padding-top: 4rem;
+  padding-top: 6rem;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18.5rem, 1fr));
